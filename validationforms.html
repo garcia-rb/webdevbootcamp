@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+<h1>Login</h1>
+
+<!-- <form action="http://wikipedia.org" method="GET">
+<input name="name" type="text" placeholder="search for term on wikipedia"'>
+<input name="password" type="password" placeholder="enter password here">
+<input name="search" type="submit" placeholder="search!">
+</form>
+ -->
+
+<!--one way to do this
+-->
+
+
+<form action="http://wikipedia.org">
+	<label>
+		Username:
+		<input name="username" type="text" placeholder="username"'>
+	</label>
+	<label>
+		Password:
+		<input name="password" type="password" placeholder="enter password here">
+	</label>
+
+
+<input name="search" type="submit" placeholder="search!">
+</form>
+
+Alternate syntax
+
+<!--another way to do this
+-->
+
+
+<form action="/sign-in-url" method="post">
+	<label for="username">Username:</label>
+	<input id="username" type="text">
+	<label for="password">Password:</label>
+	<input id="password" type="password">
+	<button>Login</button>
+
+</form>	
+
+</body>
+
+</html>
